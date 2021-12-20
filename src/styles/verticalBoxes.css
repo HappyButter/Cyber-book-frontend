@@ -1,0 +1,12 @@
+.left {
+    width: 59%;
+    float: left;
+    padding-right: 1%;
+    border-right: 2px solid darkgray;
+}
+
+.right {
+    float: right;
+    width: 40%;
+}
+
