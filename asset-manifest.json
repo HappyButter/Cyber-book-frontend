@@ -1,0 +1,36 @@
+{
+  "files": {
+    "main.css": "/Cyber-book-frontend/static/css/main.707e1d22.css",
+    "main.js": "/Cyber-book-frontend/static/js/main.244c09d1.js",
+    "static/js/792.66dcc712.chunk.js": "/Cyber-book-frontend/static/js/792.66dcc712.chunk.js",
+    "static/js/365.79fcb1a1.chunk.js": "/Cyber-book-frontend/static/js/365.79fcb1a1.chunk.js",
+    "static/js/106.4a8dc748.chunk.js": "/Cyber-book-frontend/static/js/106.4a8dc748.chunk.js",
+    "static/js/83.6ec67c5b.chunk.js": "/Cyber-book-frontend/static/js/83.6ec67c5b.chunk.js",
+    "static/js/300.75e3a6bf.chunk.js": "/Cyber-book-frontend/static/js/300.75e3a6bf.chunk.js",
+    "static/js/815.fc2efbd0.chunk.js": "/Cyber-book-frontend/static/js/815.fc2efbd0.chunk.js",
+    "static/js/632.15d760d2.chunk.js": "/Cyber-book-frontend/static/js/632.15d760d2.chunk.js",
+    "static/js/825.094dba85.chunk.js": "/Cyber-book-frontend/static/js/825.094dba85.chunk.js",
+    "static/js/198.0934fe83.chunk.js": "/Cyber-book-frontend/static/js/198.0934fe83.chunk.js",
+    "static/js/787.774729bc.chunk.js": "/Cyber-book-frontend/static/js/787.774729bc.chunk.js",
+    "static/js/88.796dfbe5.chunk.js": "/Cyber-book-frontend/static/js/88.796dfbe5.chunk.js",
+    "static/media/Cyberpunk.ttf": "/Cyber-book-frontend/static/media/Cyberpunk.ce09ddf4d0a0f2fd4619.ttf",
+    "index.html": "/Cyber-book-frontend/index.html",
+    "main.707e1d22.css.map": "/Cyber-book-frontend/static/css/main.707e1d22.css.map",
+    "main.244c09d1.js.map": "/Cyber-book-frontend/static/js/main.244c09d1.js.map",
+    "792.66dcc712.chunk.js.map": "/Cyber-book-frontend/static/js/792.66dcc712.chunk.js.map",
+    "365.79fcb1a1.chunk.js.map": "/Cyber-book-frontend/static/js/365.79fcb1a1.chunk.js.map",
+    "106.4a8dc748.chunk.js.map": "/Cyber-book-frontend/static/js/106.4a8dc748.chunk.js.map",
+    "83.6ec67c5b.chunk.js.map": "/Cyber-book-frontend/static/js/83.6ec67c5b.chunk.js.map",
+    "300.75e3a6bf.chunk.js.map": "/Cyber-book-frontend/static/js/300.75e3a6bf.chunk.js.map",
+    "815.fc2efbd0.chunk.js.map": "/Cyber-book-frontend/static/js/815.fc2efbd0.chunk.js.map",
+    "632.15d760d2.chunk.js.map": "/Cyber-book-frontend/static/js/632.15d760d2.chunk.js.map",
+    "825.094dba85.chunk.js.map": "/Cyber-book-frontend/static/js/825.094dba85.chunk.js.map",
+    "198.0934fe83.chunk.js.map": "/Cyber-book-frontend/static/js/198.0934fe83.chunk.js.map",
+    "787.774729bc.chunk.js.map": "/Cyber-book-frontend/static/js/787.774729bc.chunk.js.map",
+    "88.796dfbe5.chunk.js.map": "/Cyber-book-frontend/static/js/88.796dfbe5.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.707e1d22.css",
+    "static/js/main.244c09d1.js"
+  ]
+}
