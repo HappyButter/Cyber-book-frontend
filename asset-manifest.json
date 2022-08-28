@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Cyber-book-frontend/static/css/main.707e1d22.css",
-    "main.js": "/Cyber-book-frontend/static/js/main.5d84cff0.js",
+    "main.js": "/Cyber-book-frontend/static/js/main.8a2adf77.js",
     "static/js/792.e65f6684.chunk.js": "/Cyber-book-frontend/static/js/792.e65f6684.chunk.js",
     "static/js/365.79fcb1a1.chunk.js": "/Cyber-book-frontend/static/js/365.79fcb1a1.chunk.js",
     "static/js/106.3f6dc8fc.chunk.js": "/Cyber-book-frontend/static/js/106.3f6dc8fc.chunk.js",
@@ -16,7 +16,7 @@
     "static/media/Cyberpunk.ttf": "/Cyber-book-frontend/static/media/Cyberpunk.ce09ddf4d0a0f2fd4619.ttf",
     "index.html": "/Cyber-book-frontend/index.html",
     "main.707e1d22.css.map": "/Cyber-book-frontend/static/css/main.707e1d22.css.map",
-    "main.5d84cff0.js.map": "/Cyber-book-frontend/static/js/main.5d84cff0.js.map",
+    "main.8a2adf77.js.map": "/Cyber-book-frontend/static/js/main.8a2adf77.js.map",
     "792.e65f6684.chunk.js.map": "/Cyber-book-frontend/static/js/792.e65f6684.chunk.js.map",
     "365.79fcb1a1.chunk.js.map": "/Cyber-book-frontend/static/js/365.79fcb1a1.chunk.js.map",
     "106.3f6dc8fc.chunk.js.map": "/Cyber-book-frontend/static/js/106.3f6dc8fc.chunk.js.map",
@@ -31,6 +31,6 @@
   },
   "entrypoints": [
     "static/css/main.707e1d22.css",
-    "static/js/main.5d84cff0.js"
+    "static/js/main.8a2adf77.js"
   ]
 }
