@@ -26,7 +26,7 @@ const AuthProvider = ({ children }) => {
 
 			setUser(user.data);	
 		} catch (err) {
-			alert(err);
+			alert("Invalid email or password");
 			setError(err.message);
 		} finally {
 			setLoading(false);
@@ -47,7 +47,7 @@ const AuthProvider = ({ children }) => {
 
 			setUser(user.data);	
 		} catch (err) {
-			alert(err);
+			alert("User with such an email already exists");
 			setError(err.message);
 		} finally {
 			setLoading(false);
