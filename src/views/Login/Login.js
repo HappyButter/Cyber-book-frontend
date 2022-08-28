@@ -36,7 +36,6 @@ const useStyles = makeStyles((theme) => ({
 
 const Login = () => {
   const {login, user} = useContext(AuthContext);
-  console.log(user)
 
   const [email, setEmail] = useState('');
   const [password, setPassword] = useState('');

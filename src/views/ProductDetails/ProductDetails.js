@@ -6,28 +6,9 @@ import MenuBookIcon  from '@material-ui/icons/MenuBook';
 import Rating from '@material-ui/lab/Rating';
 
 import { Comments } from 'components';
-import { Paragraph, Btn } from './productDetails.css';
+import { Paragraph } from './productDetails.css';
 import { Middlepane } from 'styles/Middlepane.css';
 
-// const book = {
-//     "author": "J.M. Barlog",
-//     "genres": [
-//         " Media Tie-In",
-//         "Fiction "
-//     ],
-//     "pageCount": 400,
-//     "ISBN": 9781789090154,
-//     "rate": 4,
-//     "publisher": "Titan Books",
-//     "description": "The novelization of the highly anticipated God of War 4 game.\nHis vengeance against the Gods of Olympus years behind him, Kratos now lives as a man in the realm of Norse gods and monsters. It is in this harsh, unforgiving world that he must fight to survive... and teach his son to do the same. This startling reimagining of God of War deconstructs the core elements that defined the series—satisfying combat; breathtaking scale; and a powerful narrative—and fuses them anew.",
-//     "language": "English",
-//     "voteCount": {
-//         "low": 2,
-//         "high": 0
-//     },
-//     "title": "God of War: The Official Novelization",
-//     "published_date": "Aug 28, 2018"
-// }
 
 const ProductDetails = () => {
     const { isbn } = useParams();
@@ -36,14 +17,21 @@ const ProductDetails = () => {
     useEffect( () => {
         window.scrollTo(0, 0);
         getBookData();
+        // eslint-disable-next-line
     }, [isbn]);
 
     const getBookData = async () => {
         const bookData = await axios.get(`book/isbn/${isbn}`);
-        setBookInfo(bookData.data[0]);
+
+        if (bookData.data.isbn) {
+            const bookMapped = {...bookData.data, ISBN: bookData.data.isbn};
+            setBookInfo(bookMapped);
+        } else {
+            setBookInfo(bookData.data[0]);
+        }
     }
 
-    if(!bookInfo) return <div>Not working</div>
+    if(!bookInfo) return <div>Loading...</div>
 
     return(
         <Middlepane>

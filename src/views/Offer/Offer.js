@@ -13,6 +13,7 @@ const Offer = () => {
 
     useEffect( () => {
         getBooks();
+        // eslint-disable-next-line
     },[searchQuery]);
 
     const getBooks = async () => {
@@ -20,6 +21,13 @@ const Offer = () => {
         try {
             const books = await axios.post("/book/title", {title: searchQuery});
             setBooksData(books.data);
+
+            if (books.data[0].isbn) {
+                const booksMapped = books.data.map(book => ({...book, ISBN: book.isbn}))
+                setBooksData(booksMapped);
+            } else {
+                setBooksData(books.data);
+            }
         } catch (err) {
             setBooksData([]);
             console.log(err);

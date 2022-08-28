@@ -35,7 +35,14 @@ const Home = () => {
     const getBestBooks = async () => { 
         try {
             const books = await axios.get('/book/best-ratings');
-            setBestRatedBooks(books.data);
+
+            if (books.data[0].isbn) {
+                const bestRatedBooksMapped = books.data.map(book => ({...book, ISBN: book.isbn}))
+                setBestRatedBooks(bestRatedBooksMapped);
+            } else {
+                setBestRatedBooks(books.data);
+            }
+            
         } catch (err) {
             console.log(err)
         } 

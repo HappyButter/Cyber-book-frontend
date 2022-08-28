@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 const instance = axios.create({
-  baseURL: 'https://young-gorge-53186.herokuapp.com/'
+  baseURL: 'https://cyber-shop-spring-graphql.herokuapp.com'
 });
 
 export default instance;
