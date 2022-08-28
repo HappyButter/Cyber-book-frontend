@@ -26,7 +26,7 @@ const AuthProvider = ({ children }) => {
 
 			setUser(user.data);	
 		} catch (err) {
-			console.log(err)
+			alert(err);
 			setError(err.message);
 		} finally {
 			setLoading(false);
@@ -47,7 +47,7 @@ const AuthProvider = ({ children }) => {
 
 			setUser(user.data);	
 		} catch (err) {
-			console.log(err)
+			alert(err);
 			setError(err.message);
 		} finally {
 			setLoading(false);
